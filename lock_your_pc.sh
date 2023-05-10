@@ -10,6 +10,8 @@ echo 'alias code="echo Nope. Try vi. LOCK YOUR PC"' >> ~/.zshrc
 
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-light'
 
+xrandr --output HDMI-2 --rotate right
+
 echo 'pointer = 1 2 3 5 4 7 6 8 9 10 11 12' > ~/.xinputrc
 
 source ~/.zshrc
